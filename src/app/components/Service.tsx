@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Service = () => {
   return (
-    <div className="services min-vh-100 flex align-items-center" id="services">
+    <div className="services flex align-items-center" id="services">
       <Container>
         <Row>
           <Col>
