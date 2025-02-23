@@ -15,22 +15,52 @@ const Gallery = () => {
       <Container>
         <Row className="row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-4">
           <Col>
-            <Image src={Gallery1} alt="unsplash.com" className="w-100" />
+            <Image
+              src={Gallery1}
+              alt="unsplash.com"
+              className="w-100"
+              layout="responsive"
+            />
           </Col>
           <Col>
-            <Image src={Gallery2} alt="unsplash.com" className="w-100" />
+            <Image
+              src={Gallery2}
+              alt="unsplash.com"
+              className="w-100"
+              layout="responsive"
+            />
           </Col>
           <Col>
-            <Image src={Gallery3} alt="unsplash.com" className="w-100" />
+            <Image
+              src={Gallery3}
+              alt="unsplash.com"
+              className="w-100"
+              layout="responsive"
+            />
           </Col>
           <Col>
-            <Image src={Gallery4} alt="unsplash.com" className="w-100" />
+            <Image
+              src={Gallery4}
+              alt="unsplash.com"
+              className="w-100"
+              layout="responsive"
+            />
           </Col>
           <Col>
-            <Image src={Gallery5} alt="unsplash.com" className="w-100" />
+            <Image
+              src={Gallery5}
+              alt="unsplash.com"
+              className="w-100"
+              layout="responsive"
+            />
           </Col>
           <Col>
-            <Image src={Gallery6} alt="unsplash.com" className="w-100" />
+            <Image
+              src={Gallery6}
+              alt="unsplash.com"
+              className="w-100"
+              layout="responsive"
+            />
           </Col>
         </Row>
       </Container>

@@ -7,10 +7,11 @@ const Home = () => {
       <Container>
         <Row>
           <Col className="text-center text-white fs-1">
-            <h1>Mari Bersantai Sejenak</h1>
-            <p className="text-white-50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-              facere.
+            <h1>Solusi IoT dan Teknologi Terintegrasi untuk Bisnis Anda</h1>
+            <p style={{ color: "rgba(255, 247, 250, 0.88) " }}>
+              Optimalkan operasional dengan integrasi IoT cerdas, monitoring
+              real-time, dan otomatisasi proses. Wujudkan efisiensi dan inovasi
+              teknologi bersama kami.
             </p>
           </Col>
         </Row>

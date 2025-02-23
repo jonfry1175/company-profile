@@ -7,17 +7,23 @@ const Footer = () => {
       <Container>
         <Row>
           <Col>
-            <h3 className="fw-bold text-white">Ngoding.</h3>
+            <h3 className="fw-bold text-white">KJT</h3>
           </Col>
           <Col className="text-end mx-lg-3 mx-2">
-            <i className="fa-brands fa-facebook text-white fs-1"></i>
-            <i className="fa-brands fa-linkedin text-white fs-1 mx-lg-3 mx-2"></i>
-            <i className="fa-brands fa-github text-white fs-1 mx-lg-3 mx-2"></i>
+            <a
+              href="mailto:khaliljayateknik@gmail.com"
+              title="khaliljayateknik@gmail.com"
+            >
+              <i className="fa-solid fa-envelope text-white fs-1"></i>
+            </a>
+            {/* <i className="fa-brands fa-facebook text-white fs-1" title="Facebook"></i>
+            <i className="fa-brands fa-linkedin text-white fs-1 mx-lg-3 mx-2" title="LinkedIn"></i>
+            <i className="fa-brands fa-github text-white fs-1 mx-lg-3 mx-2" title="GitHub"></i> */}
           </Col>
         </Row>
         <Row>
           <Col className="text-center text-white-50">
-            <p>&copy; Copyright by Lorem 2024, All Rights Reserved.</p>
+            <p>&copy; Khalil Jaya Teknik | All Rights Reserved.</p>
           </Col>
         </Row>
       </Container>
